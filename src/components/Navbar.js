@@ -1,4 +1,5 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
+import {Link} from 'react-router-dom';
 import {
     AppBar,
     Toolbar,
@@ -43,19 +44,23 @@ const useStyles = makeStyles(theme => ({
 const menuItems = [
     {
         ListItemIcon: <Home />,
-        ListItemText: "Home"
+        ListItemText: "Home",
+        ListPath: "/"
     },
     {
         ListItemIcon: <AssignmentInd />,
-        ListItemText: "Resume"
+        ListItemText: "Resume",
+        ListPath: "/resume"
     },
     {
         ListItemIcon: <Apps />,
-        ListItemText: "Portfolio"
+        ListItemText: "Portfolio",
+        ListPath: "/portfolio"
     },
     {
         ListItemIcon: <ContactMail />,
-        ListItemText: "Contact"
+        ListItemText: "Contact",
+        ListPath: "/contact_us"
     }
 ]
 
@@ -76,7 +81,7 @@ const Navbar = () => {
                 <Divider />
                 <List>
                     {menuItems.map((lsItem, key)=> (
-                    <ListItem button key={key}>
+                    <ListItem button key={key} component={Link} to={lsItem.ListPath}>
                         <ListItemIcon className={classes.listItem}>
                           {lsItem.ListItemIcon}
                         </ListItemIcon>

@@ -45,7 +45,7 @@ const Header = () => {
             </Typography>
             <br />
             <Typography className={classes.subtitle} variant="h5">
-                <Typed strings ={["Ruby on Rails Developer", "React JS Developer", "AWS Solution Architect Certified"]} 
+                <Typed strings ={["Ruby on Rails Developer", "React JS Developer", "Web Developer"]} 
                 typeSpeed={40}
                 backSpeed={60}
                 loop
