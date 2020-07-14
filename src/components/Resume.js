@@ -144,7 +144,7 @@ const Resume = () => {
                 Comcast 
             </Typography>
             <Typography variant="subtitle1" align="center" style={{color: "tan"}}>
-                As a QA Engineer, validated function requirements of the web application manually. Also Involved in API testing using Postman tool
+                Developed Automation Scripts using Java, Selenium to run Automated Speedtests on the RDKB Devices to verify the performance on various Firmware versions
             </Typography>
          </Box>
 
@@ -156,13 +156,13 @@ const Resume = () => {
          </Box>
          <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" align="center" className={classes.subHeading}>
-                React JS Developer
+                Ruby React JS Developer
             </Typography>
             <Typography variant="body1" align="center" style={{color: "tomato"}}>
                 Vanda Pharmaceuticals
             </Typography>
             <Typography variant="subtitle1" align="center" style={{color: "tan"}}>
-                As a QA Engineer, validated function requirements of the web application manually. Also Involved in API testing using Postman tool
+                Developing Frontend interface for a dashboard portal using React JS with Semantic UI. Integrating Frontend app with Ruby on Rails Application
             </Typography>
          </Box>
          </Box>

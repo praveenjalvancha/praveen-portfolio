@@ -23,6 +23,7 @@ import {
 import { makeStyles } from '@material-ui/core/styles';
 import MobileSlider from '@material-ui/core/Drawer'
 import avatar from '../pp.jpeg'
+import Footer from './Footer';
 
 const useStyles = makeStyles(theme => ({
     menuSliderContainer: {
@@ -103,6 +104,7 @@ const Navbar = () => {
                         </Typography> 
                         <MobileSlider anchor="right" open={state.right} onClose={toggleSlider("right", false)}>
                             {sideList("right")}
+                            <Footer />
                         </MobileSlider>    
                     </Toolbar>
                 </AppBar>    
