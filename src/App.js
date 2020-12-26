@@ -1,11 +1,11 @@
-import React from 'react';
-import './App.css';
-import Home from './components';
-import {Route} from 'react-router-dom';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Resume from './components/Resume';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contacts';
+import React from "react";
+import "./App.css";
+import Home from "./components";
+import { Route } from "react-router-dom";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import Resume from "./components/Resume";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contacts";
 
 function App() {
   return (
